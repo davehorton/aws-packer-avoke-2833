@@ -1,4 +1,4 @@
-# aws-packer=-avoke-2833
+# aws-packer-avoke-2833
 
 A [packer](https://www.packer.io/) template to build an AMI for the Avoke call recording application (the rtpengine version, using 2833 for DTMF).  The base linux distro is Debian 10 (buster).
 
@@ -18,7 +18,7 @@ There are a few optional variables that can be specified on the `packer build` c
 The region to create the AMI in
 
 ```
-"ami_description": "Avoke recording server (classic)"
+"ami_description": "Avoke recording server (2833)"
 ```
 AMI description.
 
